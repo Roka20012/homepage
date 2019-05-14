@@ -26,8 +26,12 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
+    "url": "images/Donald.jpg",
+    "revision": "78fbadb48e0aeb0df33114b4e1550ef4"
+  },
+  {
     "url": "index.html",
-    "revision": "69bafc51cd91431c95c63bf3a880a346"
+    "revision": "891f8a9a65e0f50c6d92771f6606151c"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
